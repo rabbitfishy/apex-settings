@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>Jitter Recoil</Name>
+<Guid>762df9a2-76ac-4513-b3c3-711297d8d424</Guid>
+<MacroEvents>
+	<MacroEvent>
+		<Type>2</Type>
+		<MouseEvent>
+			<MouseButton>1</MouseButton>
+			<State>0</State>
+		</MouseEvent>
+    </MacroEvent>
+	
+	<MacroEvent>
+		<Type>3</Type>
+		<MouseMovement>
+			<MouseMovementEvent>
+				<Type>3</Type>
+				<X>-8</X>
+				<Y>10</Y>
+				<Delay>3</Delay>
+			</MouseMovementEvent>
+			
+			<MouseMovementEvent>
+				<Type>3</Type>
+				<X>8</X>
+				<Y>-8</Y>
+				<Delay>2</Delay>
+			</MouseMovementEvent>
+			
+			<MouseMovementEvent>
+				<Type>3</Type>
+				<X>-8</X>
+				<Y>10</Y>
+				<Delay>2</Delay>
+			</MouseMovementEvent>
+		</MouseMovement>
+	</MacroEvent>
+	
+	<MacroEvent>
+		<Type>2</Type>
+		<MouseEvent>
+			<MouseButton>1</MouseButton>
+			<State>1</State>
+		</MouseEvent>
+	</MacroEvent>
+</MacroEvents>
+<IsFolder>false</IsFolder>
+<FolderGuid>00000000-0000-0000-0000-000000000000</FolderGuid>
+</Macro>
