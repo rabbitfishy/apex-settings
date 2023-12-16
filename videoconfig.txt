@@ -34,8 +34,8 @@
 	"setting.csm_enabled"						"0"
 	"setting.csm_coverage"						"1"			// 0
 	"setting.csm_cascade_res"					"512"		// 0
-	"setting.fadeDistScale"						"0.25"		// 1.0
+	"setting.fadeDistScale"						"0.25"		// 1.0 = default | 0.25 = faded
 	"setting.dvs_supersample_enable"			"0"
-	"setting.gamma"								"0.7"
+	"setting.gamma"								"0.7"		// brightness
 	"setting.configversion"						"7"
 }
