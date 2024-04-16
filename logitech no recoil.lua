@@ -11,9 +11,9 @@ local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
 local RecoilAmount = 10
 -- pull down speed. NOTE: this value only works for circle motion aiming technique, higher the value the more quicker it pulls down.
-local PullRate = 7
+local PullRate = 0
 -- sleep amount.
-local SleepAmount = 9
+local SleepAmount = 10
 
 -- main no recoil script function.
 function NoRecoil()
