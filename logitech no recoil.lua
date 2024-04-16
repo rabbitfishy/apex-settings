@@ -1,5 +1,5 @@
--- perfect setting for me - 19/03/2022.
--- res: 1680x1050 (16:10).
+-- perfect setting for me - 16/04/2024.
+-- res: 1728x1050 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
 -- toggle script key.
