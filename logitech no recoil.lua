@@ -10,7 +10,7 @@ local LC = 1
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
 local RecoilAmount = 10
--- pull down speed. NOTE: this value only works for circle motion aiming technique, higher the value the more quicker it pulls down.
+-- pull down speed. NOTE: this value works on circle motion aiming technique aswell, higher the value the more quicker it pulls down.
 local PullRate = 0
 -- sleep amount.
 local SleepAmount = 10
