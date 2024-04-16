@@ -52,14 +52,16 @@ end
 EnablePrimaryMouseButtonEvents(true);
 function OnEvent(event, arg)
   if IsKeyLockOn(LockKey) then
-    if IsMouseButtonPressed(RC) then
-      repeat
-        if IsMouseButtonPressed(LC) then
-          NoRecoil()
-        else
-          Sleep(2)
-        end
-      until not IsMouseButtonPressed(RC)
-    end
+    repeat
+      if IsMouseButtonPressed(RC) then
+        repeat
+          if IsMouseButtonPressed(LC) then
+            NoRecoil()
+          else
+            Sleep(2)
+          end
+        until not IsMouseButtonPressed(RC)
+      end
+    until not IsKeyLockOn(LockKey)
   end
 end
