@@ -3,17 +3,17 @@
 -- dpi: 2400, poll rate: 1000.
 
 -- toggle script key.
-LockKey = "scrolllock"
+local LockKey = "pgdn" -- "scrolllock" -> scroll lock | "pgdn" -> page down key.
 -- left click - fire button.
-LC = 1
+local LC = 1
 -- right click - ads button.
-RC = 3
+local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
-RecoilAmount = 10
+local RecoilAmount = 10
 -- pull down speed. NOTE: this value only works for circle motion aiming technique, higher the value the more quicker it pulls down.
-PullRate = 7
+local PullRate = 7
 -- sleep amount.
-SleepAmount = 9
+local SleepAmount = 9
 
 -- main no recoil script function.
 function NoRecoil()
