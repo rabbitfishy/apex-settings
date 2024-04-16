@@ -2,8 +2,8 @@
 -- res: 1728x1050 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
--- toggle script key.
-local LockKey = "pgdn" -- "scrolllock" -> scroll lock | "pgdn" -> page down key.
+-- toggle script key - only certain key name works.
+local LockKey = "capslock" -- "scrolllock" -> scroll lock | "capslock" -> caps lock key.
 -- left click - fire button.
 local LC = 1
 -- right click - ads button.
