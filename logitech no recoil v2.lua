@@ -9,8 +9,8 @@ local LC = 1
 -- right click - ads button.
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
-local PreRecoilAmount = 2
-local RecoilAmount = 4
+local PreRecoilAmount = 4
+local RecoilAmount = 8
 -- pull down speed. NOTE: this value works on circle motion aiming technique aswell, higher the value the more quicker it pulls down.
 local PullRate = 0
 -- sleep amount.
@@ -23,8 +23,8 @@ function NoRecoil()
   repeat
       MoveMouseRelative(-RecoilAmount, RecoilAmount)
       Sleep(SleepAmount)
-      MoveMouseRelative(0, PullRate)
-      Sleep(SleepAmount)
+      -- MoveMouseRelative(0, PullRate)
+      -- Sleep(SleepAmount)
       MoveMouseRelative(RecoilAmount, -RecoilAmount)
       Sleep(SleepAmount)
     until not IsMouseButtonPressed(LC)
