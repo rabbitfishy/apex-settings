@@ -19,11 +19,11 @@ local SleepAmount = 3
 -- main no recoil script function.
 function NoRecoil()
   if IsMouseButtonPressed(LC) then
-		MoveMouseRelative(PreRecoilAmount, -PreRecoilAmount)
-    repeat
-	  MoveMouseRelative(-RecoilAmount, RecoilAmount)
-	  Sleep(SleepAmount)
-	  MoveMouseRelative(0, PullRate)
+      MoveMouseRelative(PreRecoilAmount, -PreRecoilAmount)
+  repeat
+      MoveMouseRelative(-RecoilAmount, RecoilAmount)
+      Sleep(SleepAmount)
+      MoveMouseRelative(0, PullRate)
       Sleep(SleepAmount)
       MoveMouseRelative(RecoilAmount, -RecoilAmount)
       Sleep(SleepAmount)
