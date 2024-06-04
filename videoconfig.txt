@@ -5,9 +5,9 @@
 	"setting.cl_particle_fallback_multiplier"	"2"			// -1
 	"setting.cl_ragdoll_maxcount"				"0"
 	"setting.cl_ragdoll_self_collision"			"0"
-	"setting.mat_forceaniso"					"16"			// texture filtering
+	"setting.mat_forceaniso"					"16"		// texture filtering
 	"setting.mat_mip_linear"					"0"			// 0 = bilinear | 1 = trilinear
-	"setting.stream_memory"						"2000000"		// low texture
+	"setting.stream_memory"						"0"			// low texture
 	"setting.mat_picmip"						"2"			// 0
 	"setting.particle_cpu_level"				"0"
 	"setting.r_createmodeldecals"				"0"
