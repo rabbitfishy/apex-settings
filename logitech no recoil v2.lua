@@ -14,7 +14,7 @@ local RecoilAmount = 8
 -- pull down speed. NOTE: this value works on circle motion aiming technique aswell, higher the value the more quicker it pulls down.
 local PullRate = 0
 -- sleep amount.
-local SleepAmount = 3
+local SleepAmount = 10 -- 3
 
 -- main no recoil script function.
 function NoRecoil()
