@@ -1,5 +1,5 @@
--- perfect setting for me - 14/05/2024.
--- res: 1728x1050 (16:10).
+-- perfect setting for me - 25/12/2024.
+-- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
 -- toggle script key - only certain key name works.
