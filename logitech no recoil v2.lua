@@ -10,7 +10,7 @@
 -- IsModifierPressed -> if key held then do action.
 -- IsKeyLockOn -> if toggle key pressed then do action.
 
--- script key - only certain key name works.
+-- script activation key - only certain key name works.
 local LockKey = "capslock" -- "scrolllock" -> scroll lock | "capslock" -> caps lock key.
 -- left click - fire button.
 local LC = 1
