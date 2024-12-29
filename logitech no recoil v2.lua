@@ -8,7 +8,7 @@
 -- It can see only mouse buttons, Shift/Ctrl/Alt, Locks(Scroll/Caps/Num).
 
 -- IsModifierPressed -> if key held then do action.
--- IsKeyLockOn -> if toggle key pressed then do action.
+-- IsKeyLockOn -> if key toggled then do action.
 
 -- script activation key - only certain key name works.
 local LockKey = "capslock" -- "scrolllock" -> scroll lock | "capslock" -> caps lock key.
