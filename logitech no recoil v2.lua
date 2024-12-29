@@ -1,4 +1,4 @@
--- perfect setting for me - 28/12/2024.
+-- updated: 28/12/2024.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
