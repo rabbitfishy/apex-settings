@@ -2,7 +2,15 @@
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
--- toggle script key - only certain key name works.
+-- NOTE!
+-- GHub is unable to monitor status of usual keys on a keyboard.
+-- It does not see whether Backspace is pressed or not.
+-- It can see only mouse buttons, Shift/Ctrl/Alt, Locks(Scroll/Caps/Num).
+
+-- IsModifierPressed -> if key held then do action.
+-- IsKeyLockOn -> if toggle key pressed then do action.
+
+-- script key - only certain key name works.
 local LockKey = "capslock" -- "scrolllock" -> scroll lock | "capslock" -> caps lock key.
 -- left click - fire button.
 local LC = 1
