@@ -20,7 +20,7 @@ local RC = 3
 local PreRecoilAmount = 4
 local RecoilAmount = 8
 -- pull down speed. NOTE: this value works on circle motion aiming technique aswell, higher the value the more quicker it pulls down.
-local PullRate = 0
+-- local PullRate = 0 -- not needed cuz i can pull down myself.
 -- sleep amount.
 local SleepAmount = 10 -- 3
 
