@@ -39,7 +39,7 @@ function NoRecoil()
 
       -- timer here is to limit how far we pull down the mouse.
       -- 1000 = 1 second.
-      if pull_time < 2000 then
+      if PullTime < 2000 then
         PullRate = 7 -- this is how much we have to pull down.
       end
       MoveMouseRelative(0, PullRate)
