@@ -1,4 +1,4 @@
--- updated: 28/12/2024.
+-- updated: 03/01/2025.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 
@@ -11,28 +11,40 @@
 -- IsKeyLockOn -> if key toggled then do action.
 
 -- script activation key - only certain key name works.
-local LockKey = "capslock" -- "scrolllock" -> scroll lock | "capslock" -> caps lock key.
+local LockKey = "ralt" -- "ralt" -> right alt.
 -- left click - fire button.
 local LC = 1
 -- right click - ads button.
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
-local PreRecoilAmount = 4
 local RecoilAmount = 8
--- pull down speed. NOTE: this value works on circle motion aiming technique aswell, higher the value the more quicker it pulls down.
--- local PullRate = 0 -- not needed cuz i can pull down myself.
 -- sleep amount.
-local SleepAmount = 10 -- 3
+local SleepAmount = 10
 
--- main no recoil script function.
+-- handle recoil function.
 function NoRecoil()
+  local Timer = GetRunningTime()
+
   if IsMouseButtonPressed(LC) then
-      MoveMouseRelative(PreRecoilAmount, -PreRecoilAmount)
   repeat
       MoveMouseRelative(-RecoilAmount, RecoilAmount)
       Sleep(SleepAmount)
-      -- MoveMouseRelative(0, PullRate)
-      -- Sleep(SleepAmount)
+
+      -- handle mouse pull down movement.
+      -- credit: https://stackoverflow.com/a/56984947
+      local PullTime = GetRunningTime() - Timer
+      -- pull down speed. higher the value, the quicker it pulls down.
+      -- NOTE: this value works on circle motion aiming technique aswell.
+      local PullRate
+
+      -- timer here is to limit how far we pull down the mouse.
+      -- 1000 = 1 second.
+      if pull_time < 2000 then
+        PullRate = 7 -- this is how much we have to pull down.
+      end
+      MoveMouseRelative(0, PullRate)
+      Sleep(SleepAmount)
+
       MoveMouseRelative(RecoilAmount, -RecoilAmount)
       Sleep(SleepAmount)
     until not IsMouseButtonPressed(LC)
@@ -42,7 +54,7 @@ end
 -- handle mouse activities.
 EnablePrimaryMouseButtonEvents(true);
 function OnEvent(event, arg)
-  if IsKeyLockOn(LockKey) then
+  if IsModifierPressed(LockKey) then
     repeat
       if IsMouseButtonPressed(RC) then
         repeat
@@ -53,6 +65,6 @@ function OnEvent(event, arg)
           end
         until not IsMouseButtonPressed(RC)
       end
-    until not IsKeyLockOn(LockKey)
+    until not IsModifierPressed(LockKey)
   end
 end
