@@ -1,6 +1,7 @@
 -- updated: 03/01/2025.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
+-- 9:14 - best setting for me
 
 -- NOTE!
 -- GHub is unable to monitor status of usual keys on a keyboard.
@@ -17,9 +18,9 @@ local LC = 1
 -- right click - ads button.
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
-local RecoilAmount = 8
+local RecoilAmount = 9
 -- sleep amount.
-local SleepAmount = 10
+local SleepAmount = 14
 
 -- handle recoil function.
 function NoRecoil()
