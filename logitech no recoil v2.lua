@@ -1,4 +1,4 @@
--- updated: 03/01/2025.
+-- updated: 16/03/2025.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 -- 9:14 - best setting for me
@@ -7,6 +7,9 @@
 -- GHub is unable to monitor status of usual keys on a keyboard.
 -- It does not see whether Backspace is pressed or not.
 -- It can see only mouse buttons, Shift/Ctrl/Alt, Locks(Scroll/Caps/Num).
+
+-- this is a better method of doing jitter aim.
+-- credit: https://www.unknowncheats.me/forum/apex-legends/606681-ghub-jitter-aim-mantle-jump-script.html
 
 -- IsModifierPressed -> if key held then do action.
 -- IsKeyLockOn -> if key toggled then do action.
@@ -28,7 +31,7 @@ function NoRecoil()
 
   if IsMouseButtonPressed(LC) then
   repeat
-      MoveMouseRelative(-RecoilAmount, RecoilAmount)
+      MoveMouseRelative(RecoilAmount, RecoilAmount)
       Sleep(SleepAmount)
 
       -- handle mouse pull down movement.
@@ -46,7 +49,7 @@ function NoRecoil()
       MoveMouseRelative(0, PullRate)
       Sleep(SleepAmount)
 
-      MoveMouseRelative(RecoilAmount, -RecoilAmount)
+      MoveMouseRelative(-RecoilAmount, -RecoilAmount)
       Sleep(SleepAmount)
     until not IsMouseButtonPressed(LC)
   end
