@@ -21,9 +21,9 @@ local LC = 1
 -- right click - ads button.
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
-local RecoilAmount = 9
+local RecoilAmount = 10
 -- sleep amount.
-local SleepAmount = 14
+local SleepAmount = 10
 
 -- handle recoil function.
 function NoRecoil()
