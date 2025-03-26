@@ -1,7 +1,7 @@
 -- updated: 26/03/2025.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
--- 9:14 - best setting for me
+-- 9:12:14 - best setting for me
 
 -- NOTE!
 -- GHub is unable to monitor status of usual keys on a keyboard.
@@ -23,7 +23,7 @@ local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
 local RecoilAmount = 10
 -- pull down speed. higher the value, the quicker it pulls down.
-local PullRate = 13
+local PullRate = 12
 -- sleep amount.
 local SleepAmount = 10
 
