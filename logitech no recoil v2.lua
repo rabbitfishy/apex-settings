@@ -1,4 +1,4 @@
--- updated: 16/03/2025.
+-- updated: 26/03/2025.
 -- res: 1728x1080 (16:10).
 -- dpi: 2400, poll rate: 1000.
 -- 9:14 - best setting for me
