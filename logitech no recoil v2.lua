@@ -22,6 +22,8 @@ local LC = 1
 local RC = 3
 -- no recoil amount. NOTE: higher the value the more screen shaking there is.
 local RecoilAmount = 10
+-- pull down speed. higher the value, the quicker it pulls down.
+local PullRate = 13
 -- sleep amount.
 local SleepAmount = 10
 
@@ -37,17 +39,13 @@ function NoRecoil()
       -- handle mouse pull down movement.
       -- credit: https://stackoverflow.com/a/56984947
       local PullTime = GetRunningTime() - Timer
-      -- pull down speed. higher the value, the quicker it pulls down.
-      -- NOTE: this value works on circle motion aiming technique aswell.
-      local PullRate
 
       -- timer here is to limit how far we pull down the mouse.
       -- 1000 = 1 second.
       if PullTime < 2300 then
-        PullRate = 13 -- this is how much we have to pull down.
+        MoveMouseRelative(0, PullRate)
+        Sleep(SleepAmount)
       end
-      MoveMouseRelative(0, PullRate)
-      Sleep(SleepAmount)
 
       MoveMouseRelative(-RecoilAmount, -RecoilAmount)
       Sleep(SleepAmount)
