@@ -68,7 +68,7 @@
       "Y/X sensitivity ratio (vertical sens multiplier)": 1.0,
       "L/R sensitivity ratio (left sens multiplier)": 1.0,
       "U/D sensitivity ratio (up sens multiplier)": 1.0,
-      "Degrees of rotation": -3.6,
+      "Degrees of rotation": -4,
       "Degrees of angle snapping": 17.0,
       "Input Speed Cap": 0.0
     }
