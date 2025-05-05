@@ -7,4 +7,4 @@ As I don't remember my original settings.<br>
 ![1](/../../../../rabbitfishy/apex-settings/blob/main/gameplay%20settings/1.png)<br>
 ![2](/../../../../rabbitfishy/apex-settings/blob/main/gameplay%20settings/2.png)<br>
 ![3](/../../../../rabbitfishy/apex-settings/blob/main/gameplay%20settings/3.png)<br>
-![raw accel rotation setting](/../../../../rabbitfishy/apex-settings/blob/main/raw%20accel%20settings/g305%20mouse%20rotation.PNG)
+![raw accel rotation setting](/../../../../rabbitfishy/apex-settings/blob/main/raw%20accel%20settings/)
