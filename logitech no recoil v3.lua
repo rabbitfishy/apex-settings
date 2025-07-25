@@ -34,7 +34,8 @@ function no_recoil()
 		repeat
 			-- move the mouse relative to its current position.
 			MoveMouseRelative(recoil_amount, recoil_amount)
-			Sleep(sleep_amount) -- wait for 10 milliseconds.
+			-- wait for 10 milliseconds.
+			Sleep(sleep_amount)
 			
 			-- handle mouse pull down movement.
 			-- credit: https://stackoverflow.com/a/56984947
@@ -58,13 +59,16 @@ function no_recoil()
 			-- 1000 milliseconds = 1 second.
 			if pull_time < 2350 then
 				MoveMouseRelative(0, pull_rate)
+				-- increment pull down adjusting.
 				pull_adjust = pull_adjust + 1
-				Sleep(sleep_amount) -- wait for 10 milliseconds.
+				-- wait for 10 milliseconds.
+				Sleep(sleep_amount)
 			end
 			
 			-- move the mouse relative to its current position.
 			MoveMouseRelative(-recoil_amount, -recoil_amount)
-			Sleep(sleep_amount) -- wait for 10 milliseconds.
+			-- wait for 10 milliseconds.
+			Sleep(sleep_amount)
 			
 		until not IsMouseButtonPressed(lc) -- loop until left mouse is not pressed.
 	end
