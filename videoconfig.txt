@@ -27,7 +27,7 @@
 	"setting.dvs_gpuframetime_max"				"16500"		// 0
 	"setting.fullscreen"						"1"
 	"setting.nowindowborder"					"0"
-	"setting.defaultres"						"1920"		// 1728
+	"setting.defaultres"						"1728"		// 1920
 	"setting.defaultresheight"					"1080"		// 1080
 	"setting.volumetric_lighting"				"0"
 	"setting.volumetric_fog"					"0"
