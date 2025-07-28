@@ -8,7 +8,7 @@
 	"setting.mat_forceaniso"					"0"			// texture filtering
 	"setting.mat_mip_linear"					"0"			// 0 = bilinear | 1 = trilinear
 	"setting.stream_memory"						"1000000"		// high texture (cuz i have 3060 12gb)
-	"setting.dynamic_streaming_budget"				"0"
+	"setting.dynamic_streaming_budget"			"0"
 	"setting.mat_picmip"						"2"			// 0
 	"setting.particle_cpu_level"				"0"
 	"setting.r_createmodeldecals"				"0"
@@ -30,7 +30,7 @@
 	"setting.defaultres"						"1920"		// 1728
 	"setting.defaultresheight"					"1080"		// 1080
 	"setting.volumetric_lighting"				"0"
-	"setting.volumetric_fog"				"0"
+	"setting.volumetric_fog"					"0"
 	"setting.mat_vsync_mode"					"4"		// 4 = adaptive 1/2 rate (it unlocks fps? somehow idk)
 	"setting.mat_backbuffer_count"				"0"			// 1
 	"setting.mat_antialias_mode"				"0"			// 12 = true | 0 = false | turn this shit on is blurry af!
@@ -41,5 +41,5 @@
 	"setting.dvs_supersample_enable"			"0"
 	"setting.gamma"								"0.7"		// brightness
 	"setting.configversion"						"9"
-	"setting.map_detail_level"					"0"		// 1
+	"setting.map_detail_level"					"0"			// 1
 }
