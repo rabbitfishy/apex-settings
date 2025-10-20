@@ -26,7 +26,7 @@
 	"setting.dvs_gpuframetime_min"				"15000"		// 0
 	"setting.dvs_gpuframetime_max"				"16500"		// 0
 	"setting.fullscreen"						"1"
-	"setting.nowindowborder"					"1"
+	"setting.nowindowborder"					"0"			// this makes ghub script stop working.
 	"setting.defaultres"						"1728"		// 1920
 	"setting.defaultresheight"					"1080"		// 1080
 	"setting.volumetric_lighting"				"0"
