@@ -7,7 +7,7 @@
 	"setting.cl_ragdoll_self_collision"			"0"
 	"setting.mat_forceaniso"					"0"			// texture filtering | 4 = anisotropic 4x
 	"setting.mat_mip_linear"					"0"
-	"setting.stream_memory"						"160000"	// low texture
+	"setting.stream_memory"						"160000"	// 160000 = low texture | 1000000 = high texture
 	"setting.dynamic_streaming_budget"			"1"
 	"setting.mat_picmip"						"2"			// 0
 	"setting.particle_cpu_level"				"0"
